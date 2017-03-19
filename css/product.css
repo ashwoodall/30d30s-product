@@ -1,0 +1,103 @@
+footer {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: #2521ff !important;
+}
+
+a:hover {
+    text-decoration: none !important;
+}
+
+.end {
+    margin-bottom: 5%;
+}
+
+.row {
+    margin: 5% 5%;
+}
+
+.caption h1 {
+    margin-top: 300px !important;
+    z-index: 1;
+    position: absolute;
+    color: #FFFFFF !important;
+    text-align: center;
+    font-size: 4em !important;
+}
+
+.caption {
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    vertical-align: center;
+}
+
+.title {
+    margin-top: 60px;
+    color: #0000b4;
+}
+
+.featurette-divider {
+    margin: 80px 0;
+}
+
+.featurette {
+    overflow: hidden;
+}
+
+.featurette-image.pull-left {
+    margin-right: 40px;
+}
+
+.featurette-image.pull-right {
+    margin-left: 40px;
+}
+
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}
+
+#about {
+    padding-right: 15px;
+}
